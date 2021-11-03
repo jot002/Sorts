@@ -168,11 +168,11 @@ public class RuntimeAnalysis {
     public static void main(String[] args) {
         int numData;
 
-        numData = NUM_DATA;
-        for (int i = 0; i < NUM_TEST; i++) {
+        numData = 100000;
+        for (int i = 0; i <= NUM_TEST; i++) {
             ArrayList<Integer> data = randomNumbers(numData, MIN, MAX);
-            timeInsertionSort(data, NUM_RUN);
-            numData += numData;
+            timeModifiedQuickSort(data, NUM_RUN, 4);
+            numData += 100000;
         }
     }
 }
