@@ -1,4 +1,3 @@
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XmlVisitor;
 import org.junit.Test;
 
 import java.util.ArrayList;
