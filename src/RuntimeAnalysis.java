@@ -5,9 +5,6 @@
  
 import java.util.ArrayList;
 
-/**
- * TODO: add class header
- */
 public class RuntimeAnalysis {
 
     private static final int NUM_DATA = 10000;
