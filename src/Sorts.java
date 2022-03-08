@@ -4,12 +4,6 @@
  */
 import java.util.ArrayList;
 
-/**
- * Sorts class.
- * @param <T> Generic type
- * @author TODO
- * @since  TODO
- */
 public class Sorts<T extends Comparable<? super T>> {
 
     private static final int MIDDLE_IDX = 2;
